@@ -1,0 +1,13 @@
+.modal .ant-modal-content {
+    padding: 0px !important;
+  }
+  .button .ant-btn :hover {
+    background-color: "none" !important;
+    color: #fff;
+    font-weight: bolder;
+  }
+  ant-btn .ok{
+    background-color: "none" !important;
+    color: #fff;
+    font-weight: bolder;
+  }
