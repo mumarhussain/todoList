@@ -4,7 +4,6 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import CompletedTodos from "../../pages/completedTodos";
 import CurrentTodos from "../../pages/currentTodos";
-import UpcomingTodos from "../../pages/newTodos";
 
 export default function Navbar() {
   const [isShow, setIsShow] = useState(false);
@@ -31,9 +30,6 @@ export default function Navbar() {
               <li className="cursor-pointer px-3">
                 <Link to="/">Current Todos</Link>
               </li>
-              {/* <li className="cursor-pointer px-3">
-                <Link to="/upcoming">Upcoming Todos</Link>
-              </li> */}
               <li className="cursor-pointer px-3">
                 <Link to="/completedTodos">Completed Todos</Link>
               </li>
@@ -44,7 +40,6 @@ export default function Navbar() {
 
       <Routes>
         <Route path="/" element={<CurrentTodos />} />
-        {/* <Route path="/upcoming" element={<UpcomingTodos/>} /> */}
         <Route path="/completedTodos" element={<CompletedTodos />} />
       </Routes>
     </Router>

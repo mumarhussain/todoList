@@ -8,7 +8,6 @@ export const useStore = create(
       images: [],
       addTaskInfo: (data) => {
         set((state) => ({ tasks: [...state.tasks, data] }));
-        // set({ tasks: data });
       },
       updateTask: (data) => {
         set({ tasks: data });

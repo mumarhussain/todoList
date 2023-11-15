@@ -6,8 +6,51 @@
     color: #fff;
     font-weight: bolder;
   }
-  ant-btn .ok{
+  .ant-btn .ok{
     background-color: "none" !important;
     color: #fff;
     font-weight: bolder;
+  }
+  .myTable .ant-table-thead > tr > th {
+    background-color: #2194F6;
+    color: white;
+  }
+  
+  .myTable .ant-table-tbody > tr > td {
+    color: #000;
+  }
+  
+  .modal .ant-modal-content {
+    padding: 0px !important;
+  }
+  
+  .myTable
+    .ant-table-container
+    .ant-table-content
+    table
+    .ant-table-thead
+    tr
+    th:first-child {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+  }
+  .type .ant-select-selector {
+    height: 54px !important;
+  }
+  .myTable
+    .ant-table-container
+    .ant-table-content
+    table
+    .ant-table-thead
+    tr
+    th:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px !important;
+  }
+  .myTable .ant-table-tbody .ant-table-row {
+    margin-top: 50px !important;
+  }
+  .myTable th {
+    margin-right: 10px;
   }
